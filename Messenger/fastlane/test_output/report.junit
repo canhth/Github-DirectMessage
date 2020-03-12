@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='MessengerUITests.xctest' tests='18' failures='0'>
+  <testsuite name='MessengerTests.DirectMessagesTests' tests='3' failures='0'>
+    <testcase classname='MessengerTests.DirectMessagesTests' name='testExample' time='0.001'/>
+    <testcase classname='MessengerTests.DirectMessagesTests' name='testPerformanceExample' time='0.316'/>
+    <testcase classname='MessengerTests.DirectMessagesTests' name='testSendingMessage' time='0.001'/>
+  </testsuite>
+  <testsuite name='MessengerTests.ImagesCacheTests' tests='4' failures='0'>
+    <testcase classname='MessengerTests.ImagesCacheTests' name='testExample' time='0.001'/>
+    <testcase classname='MessengerTests.ImagesCacheTests' name='testPerformanceExample' time='0.252'/>
+    <testcase classname='MessengerTests.ImagesCacheTests' name='testStoringInvalidImage' time='0.004'/>
+    <testcase classname='MessengerTests.ImagesCacheTests' name='testStoringValidImage' time='4.022'/>
+  </testsuite>
+  <testsuite name='MessengerTests.ListUsersTests' tests='4' failures='0'>
+    <testcase classname='MessengerTests.ListUsersTests' name='testExample' time='0.001'/>
+    <testcase classname='MessengerTests.ListUsersTests' name='testFetchingUserByMockData' time='0.010'/>
+    <testcase classname='MessengerTests.ListUsersTests' name='testFetchingUsersByNetwork' time='4.033'/>
+    <testcase classname='MessengerTests.ListUsersTests' name='testPerformanceExample' time='0.252'/>
+  </testsuite>
+  <testsuite name='MessengerTests.MessengerTests' tests='2' failures='0'>
+    <testcase classname='MessengerTests.MessengerTests' name='testExample' time='0.001'/>
+    <testcase classname='MessengerTests.MessengerTests' name='testPerformanceExample' time='0.252'/>
+  </testsuite>
+  <testsuite name='MessengerTests.PersistenceTests' tests='3' failures='0'>
+    <testcase classname='MessengerTests.PersistenceTests' name='testExample' time='0.001'/>
+    <testcase classname='MessengerTests.PersistenceTests' name='testPerformanceExample' time='0.252'/>
+    <testcase classname='MessengerTests.PersistenceTests' name='testStoringMessages' time='0.006'/>
+  </testsuite>
+  <testsuite name='MessengerUITests.MessengerUITests' tests='2' failures='0'>
+    <testcase classname='MessengerUITests.MessengerUITests' name='testExample' time='2.309'/>
+    <testcase classname='MessengerUITests.MessengerUITests' name='testLaunchPerformance' time='19.477'/>
+  </testsuite>
+</testsuites>
